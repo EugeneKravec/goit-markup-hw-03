@@ -75,6 +75,15 @@ footer {
     background-color: var(--primary-background-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    …
+  }
+  
 .our-work-title,
 .our-team-title {
     font-weight: 700;
