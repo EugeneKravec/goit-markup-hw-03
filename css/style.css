@@ -1,0 +1,278 @@
+/* 
+Основной цвет текста   #212121; - Заголовки черн
+Вторичный цвет текста  #FFFFFF; - Заголовки бел
+Цвет текста Параграфы  #757575;
+
+Акцкет 1 ------------- #2196F3; - Синий для кнопок и навигации */
+
+
+ /* 
+ Основной цвет фона  #E5E5E5; - 
+ Вторичный цвет фона #2F303A; - Герой и Футер
+ Фон хедера          #FFFFFF;
+
+ */
+:root {
+    --primary-title-color:#212121;
+    --secondary-title-color:#FFFFFF;
+    --text-color:#757575;
+    --accent-color:#2196F3;
+    --logo-color:#ffffff;
+
+    --primary-background-color:#E5E5E5;
+    --secondary-background-color:#2F303A;
+    --header-background-clor:#FFFFFF;  
+    --button-background-clor:#F5F4FA;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: var(--primary-background-color);
+}
+
+header {
+    background-color: var(--header-background-clor);
+}
+
+footer {
+    background-color: var(--secondary-background-color);
+}
+
+.nav {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.nav .header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    background-color: var(--secondary-background-color);
+    
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.competence,
+.our-work {
+    background-color: var(--primary-background-color);
+}
+
+.our-work-title,
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+
+}
+
+.our-team {
+    background-color: var(--button-background-clor);
+}
+
+.button {
+    background-color: var(--accent-color);
+}
+
+.button-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--button-background-clor);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--accent-color);
+}
+
+.hero-text,
+.main-button {
+    color: var(--secondary-title-color);
+}
+
+.main-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.competence-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.competence-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* Заголовки с одинаковым размером шрифта */
+.our-work,
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.header-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+
+}
+
+.footer-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
+}
+.footer-logo,
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    
+}
+
+.list {
+    color: var(--primary-title-color);
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-list,
+.contact-list {
+    color: var(--primary-title-color);
+}
+
+.header-list .active-page {
+    color: var(--accent-color);
+}
+
+.header-link {
+    color: var(--primary-title-color);
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+
+}
+
+.header-contacts:hover {
+    color: var(--accent-color);
+}
+
+/* Цвет сделал такой, чтобы было видно реакцию */
+.header-link:hover,
+.header-link:focus {
+    color: #8bf75a;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover{
+    color: var(--accent-color);
+}
+
+.text {
+    color: var(--text-color);
+}
+
+address {
+    color: var(--secondary-title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+}
+
+.project-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
