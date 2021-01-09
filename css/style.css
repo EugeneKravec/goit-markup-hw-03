@@ -31,6 +31,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: var(--primary-background-color);
+    margin: 0 auto;
 }
 
 header {
@@ -42,6 +43,10 @@ footer {
 }
 
 .nav {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 145px;
+
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -56,12 +61,22 @@ footer {
     letter-spacing: 0.02em;
 }
 
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
 .hero {
     background-color: var(--secondary-background-color);
-    
+    border: 5px solid white;
+    padding-top: 120px;
+    padding-bottom: 200px;
+
 }
 
 .hero-text {
+    margin: 0 auto;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -70,7 +85,17 @@ footer {
     text-transform: uppercase;
 }
 
-.competence,
+.competence-list {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-background-color);
+}
+
+.images-list {
+    display: flex;
+    flex-direction: row;
+}
+
 .our-work {
     background-color: var(--primary-background-color);
 }
@@ -125,12 +150,25 @@ footer {
 
 .main-button {
     cursor: pointer;
+    
+    /* width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px; */
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+.main-button {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 32px;
 }
 
 .competence-item {
@@ -196,6 +234,11 @@ footer {
 }
 .footer-logo,
 .header-logo {
+    /* display: flex;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-left: 145px; */
+
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
