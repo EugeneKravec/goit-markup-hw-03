@@ -31,29 +31,37 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: var(--primary-background-color);
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 header {
-    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
     margin: 0 auto;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 215px;
+    padding: 24px 0;
     background-color: var(--header-background-clor);
 }
 
+.header-container {
+    display: flex;
+    justify-content: center;
+    /* padding:0 15 px; */
+    /* margin-left: auto;  
+    margin-right: auto; */
+}
+
 footer {
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
-    padding-left: 215px;
+    /* padding-left: 215px; */
     background-color: var(--secondary-background-color);
 }
 
-.nav {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    
+.nav { 
+    width: 295px;
+    margin-left: 60px;   
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -61,7 +69,11 @@ footer {
     letter-spacing: 0.03em;
 }
 
-.nav .header-list {
+.header-list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.42;
@@ -69,7 +81,7 @@ footer {
 }
 
 .container {
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -82,6 +94,7 @@ footer {
 }
 
 .hero-text {
+    background-color: var(--secondary-background-color);
     margin: 0 auto;
     margin-bottom: 30px;
     font-weight: 900;
@@ -177,12 +190,6 @@ footer {
 
 .main-button {
     cursor: pointer;
-    
-    /* width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 440px; */
-    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -264,11 +271,11 @@ footer {
 }
 .footer-logo,
 .header-logo {
-    /* display: flex;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-left: 145px; */
-
+    display: flex;
+    align-items: flex-start;
+    width: 145px;
+    height: 31px;
+    padding: 0 5px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -277,7 +284,6 @@ footer {
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
-    
 }
 
 .list {
@@ -289,15 +295,11 @@ footer {
     text-decoration: none;
 }
 
-.header-list {
-    display: flex;
-    justify-content: center;
-}
 .contact-list {
-    display: flex;
+    display: flex;  
     justify-content: flex-end;
-    flex-direction: row;
-    
+    margin-left: 200px;
+    padding: 0; 
 }
 
 .header-list .active-page {
