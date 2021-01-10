@@ -102,8 +102,6 @@ footer {
 }
 
 .our-work {
-    /* padding-top: 94px;
-    padding-bottom: 94px; */
     padding: 47px 0;
     font-weight: 700;
     font-size: 36px;
@@ -136,10 +134,7 @@ footer {
 }
 
 .images-list {
-    padding: 0 15px;
-    margin: 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
