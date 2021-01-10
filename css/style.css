@@ -87,14 +87,11 @@ footer {
 
 .hero {
     background-color: var(--secondary-background-color);
-    border: 5px solid white;
-    padding-top: 120px;
-    padding-bottom: 200px;
+    padding: 200px 0;
 
 }
 
 .hero-text {
-    background-color: var(--secondary-background-color);
     margin: 0 auto;
     margin-bottom: 30px;
     font-weight: 900;
@@ -107,33 +104,50 @@ footer {
 
 .competence {
     margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 0 47px;
     background-color: var(--primary-background-color);
 }
 
 .our-work {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
+    padding: 47px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: var(--primary-background-color);
 }
 
 .our-team {
     padding: 94px 0;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: var(--button-background-clor);
 }
 
 .competence-list {
+    width: 1170px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    padding-right: 15xp;
+    padding-left: 15px;
+    margin: 0;
     
 }
 
 .images-list {
+    padding: 0 15px;
+    margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .our-work-imges {
@@ -155,6 +169,8 @@ footer {
   
 .our-work-title,
 .our-team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -169,6 +185,8 @@ footer {
 }
 
 .button-filter {
+    padding: 6px 22px;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -181,6 +199,18 @@ footer {
 .button-filter:hover,
 .button-filter:focus {
     background-color: var(--accent-color);
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;  
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-text,
@@ -223,8 +253,6 @@ footer {
     letter-spacing: 0.03em;
 }
 
-/* Заголовки с одинаковым размером шрифта */
-.our-work,
 .our-team {
     font-weight: 700;
     font-size: 36px;
@@ -373,8 +401,4 @@ address {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-color);
-}
-
-.container {
-    outline: 2px dotted red;
 }
