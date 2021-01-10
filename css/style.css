@@ -35,21 +35,13 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 24px 0;
     background-color: var(--header-background-clor);
 }
 
 .header-container {
     display: flex;
     justify-content: center;
-    /* padding:0 15 px; */
-    /* margin-left: auto;  
-    margin-right: auto; */
+    align-items: center;
 }
 
 footer {
@@ -83,6 +75,7 @@ footer {
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .hero {
@@ -211,6 +204,7 @@ footer {
 .project-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .hero-text,
