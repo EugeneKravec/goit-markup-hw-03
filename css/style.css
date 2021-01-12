@@ -474,6 +474,14 @@ address {
 }
 
 .filter-container {
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
+}
+
+.project-name {
+    margin: 20px 24px;
+}
+
+.project-container {
+    margin-bottom: 94px;
 }
