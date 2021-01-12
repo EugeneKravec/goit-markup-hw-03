@@ -38,19 +38,26 @@ header {
     background-color: var(--header-background-clor);
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 24px 0;
 }
 
 footer {
+    padding: 60px 0;
     background-color: var(--secondary-background-color);
 }
 
 .nav { 
-    width: 295px;
-    margin-left: 60px;   
+    margin-left: 93px;  
+
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -69,12 +76,6 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .hero {
     background-color: var(--secondary-background-color);
     padding: 200px 0;
@@ -90,6 +91,8 @@ footer {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    color: var(--logo-color);
 }
 
 .competence {
@@ -270,17 +273,7 @@ li {
 
 .hero-text,
 .main-button {
-    color: var(--secondary-title-color);
-}
-
-.main-button {
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    color: var(--logo-color);
 }
 
 .main-button {
@@ -288,6 +281,13 @@ li {
     margin: 0 auto;
     border-radius: 5px;
     padding: 10px 32px;
+    cursor: pointer;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .competence-item {
@@ -352,21 +352,34 @@ li {
     letter-spacing: 0.03em;
     color: var(--logo-color);
 }
-.footer-logo,
+
 .header-logo {
     display: flex;
-    align-items: flex-start;
-    width: 145px;
-    height: 31px;
-    padding: 0 5px;
+    text-decoration: none;
+
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
+
     color: var(--accent-color);
+}
+
+.footer-logo {
+    display: flex;
+    margin-bottom: 20px;
     text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
 }
 
 .list {
@@ -381,8 +394,7 @@ li {
 .contact-list {
     display: flex;  
     justify-content: flex-end;
-    margin-left: 200px;
-    padding: 0; 
+    margin-left: auto;
 }
 
 .header-list .active-page {
