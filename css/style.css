@@ -137,9 +137,6 @@ footer {
 
 .images-list {
     display: flex;
-    /* justify-content: space-around; */
-    /* margin-left: 30px; */
-    /* padding: 4px; */
 }
 
 .our-work-imges {
@@ -260,8 +257,6 @@ li {
 
 .project-item {
     width: calc((100%-60px) / 3);  
-    /* margin-right: 30px;
-    margin-bottom: 30px; */
 }
 
 .project-item:nth-last-child(-n + 3) {  
@@ -318,6 +313,8 @@ li {
 }
 
 .team-item {
+    margin-bottom: 10px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -485,8 +482,8 @@ address {
 }
 
 .our-team-people {
-    /* margin-top: 30px;
+    margin-top: 30px;
     margin-bottom: 30px;
-    /* margin-left: auto;
-    margin-right: auto; */ */
+    margin-left: auto;
+    margin-right: auto;
 }
