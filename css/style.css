@@ -476,7 +476,7 @@ address {
 }
 
 .project-name {
-    margin: 20px 24px;
+    padding: 20px 24px;
 }
 
 .project-container {
@@ -484,8 +484,8 @@ address {
 }
 
 .our-team-people {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: auto;
+    padding-right: auto;
 }
