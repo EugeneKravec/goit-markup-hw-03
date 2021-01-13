@@ -314,7 +314,7 @@ li {
 
 .team-item {
     margin-bottom: 10px;
-    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -426,8 +426,8 @@ li {
 
 .footer-link {
     display: flex;
-    /* justify-content: flex-end; */
     flex-direction: column;
+    margin-bottom: 9px;
 
     font-weight: 400;
     font-size: 14px;
@@ -445,12 +445,14 @@ li {
 }
 
 address {
-    color: var(--secondary-title-color);
+    margin-bottom: 9px;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
 }
 
 .project-title {
