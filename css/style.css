@@ -256,16 +256,16 @@ li {
 }
 
 .project-item {
-    width: calc((100%-60px) / 3);  
+    width: calc((100%-60px) / 3); 
 }
 
-.project-item:nth-last-child(-n + 3) {  
-    margin-bottom: 0;
+.project-item:nth-last-child(n + 3) {  
+    margin-right: 0;
 }
 
-.project-item:nth-child(3n) {  
+/* .project-item:nth-child(3n) {  
     margin-right: 0;}
-}
+} */
 
 .hero-text,
 .main-button {
@@ -477,6 +477,7 @@ address {
 
 .project-name {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .project-container {
@@ -488,4 +489,9 @@ address {
     padding-bottom: 30px;
     padding-left: auto;
     padding-right: auto;
+}
+
+.hero-line {
+    border: 1px solid #ECECEC;
+    margin: 0;
 }
