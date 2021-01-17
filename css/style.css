@@ -31,7 +31,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: var(--primary-background-color);
-    /* margin: 0 auto; */
 }
 
 header {
@@ -70,6 +69,7 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 0;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.42;
@@ -77,14 +77,15 @@ footer {
 }
 
 .hero {
-    background-color: var(--secondary-background-color);
     padding: 200px 0;
 
+    background-color: var(--secondary-background-color);
 }
 
 .hero-text {
     margin: 0 auto;
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -98,6 +99,7 @@ footer {
 .competence {
     margin: 0 auto;
     padding: 94px 0 47px;
+
     background-color: var(--primary-background-color);
 }
 
@@ -121,6 +123,7 @@ footer {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
     background-color: var(--button-background-clor);
 }
 
@@ -252,8 +255,6 @@ li {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-    /* padding: 0; */
 }
 
 .project-item {
@@ -291,7 +292,7 @@ li {
 
 .competence-item {
     margin-bottom: 10px;
-    
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -303,6 +304,7 @@ li {
     width: 270px;
     margin-left: 30px;
     margin: 0 auto;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -340,8 +342,8 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
     letter-spacing: 0.03em;
+
     color: var(--primary-title-color);
 
 }
@@ -351,8 +353,8 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
     letter-spacing: 0.03em;
+
     color: var(--logo-color);
 }
 
@@ -364,7 +366,6 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
     letter-spacing: 0.03em;
 
     color: var(--accent-color);
@@ -379,7 +380,6 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
     letter-spacing: 0.03em;
 
     color: var(--accent-color);
