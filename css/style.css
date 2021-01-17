@@ -102,14 +102,14 @@ footer {
 }
 
 .our-work {
-    padding: 47px 0;
-    margin-bottom: 94px;
+    padding: 47px 0 94px;
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
     background-color: var(--primary-background-color);
 }
 
@@ -176,11 +176,13 @@ footer {
 .our-team-title {
     margin-top: 0;
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--primary-title-color);
 
 }
@@ -474,8 +476,7 @@ address {
 }
 
 .filter-container {
-    padding-top: 94px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .project-name {
@@ -484,7 +485,7 @@ address {
 }
 
 .project-container {
-    margin-bottom: 94px;
+    padding: 94px 0;
 }
 
 .our-team-people {
